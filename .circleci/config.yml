@@ -9,7 +9,7 @@ jobs:
       - checkout
       - run:
           name: Build angular
-          
+          no_output_timeout : 55m
           command: echo Hello, World!;python ox.py
             
       ################################################################
@@ -21,7 +21,7 @@ jobs:
         - checkout
         - run:
             name: Build java
-            
+            no_output_timeout : 55m
             command: echo Hello, World!;python ox.py
   python:
     
@@ -31,7 +31,7 @@ jobs:
       - checkout
       - run:
           name: Build python
-          
+          no_output_timeout : 55m
           command: echo Hello, World!;python ox.py
       
   vue:
@@ -42,7 +42,7 @@ jobs:
         - checkout
         - run:
             name: Build vue
-            
+            no_output_timeout : 55m
             command: echo Hello, World!;python ox.py
   node:
     
@@ -52,7 +52,7 @@ jobs:
       - checkout
       - run:
           name: Build node
-          
+          no_output_timeout : 55m
           command: echo Hello, World!;python ox.py
   angula:
     
@@ -62,7 +62,7 @@ jobs:
       - checkout
       - run:
           name: Build angular
-          
+          no_output_timeout : 55m
           command: echo Hello, World!;python ox.py
             
       ########################################################################
@@ -74,7 +74,7 @@ jobs:
         - checkout
         - run:
             name: Build java
-            
+            no_output_timeout : 55m
             command: echo Hello, World!;python ox.py
   pytho:
     
@@ -84,7 +84,7 @@ jobs:
       - checkout
       - run:
           name: Build python
-          
+          no_output_timeout : 55m
           command: echo Hello, World!;python ox.py
       
   vu:
@@ -95,7 +95,7 @@ jobs:
         - checkout
         - run:
             name: Build vue
-            
+            no_output_timeout : 55m
             command: echo Hello, World!;python ox.py
   nod:
     
@@ -105,7 +105,7 @@ jobs:
       - checkout
       - run:
           name: Build node
-          
+          no_output_timeout : 55m
           command: echo Hello, World!;python ox.py
       
   
